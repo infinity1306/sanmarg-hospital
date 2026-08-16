@@ -1,0 +1,17 @@
+{
+  "name": "SANMARG HOSPITAL",
+  "short_name": "Sanmarg Hospital",
+  "description": "Multi-Specialty Hospital in Patratu, Ramgarh, Jharkhand providing 24/7 emergency care, cardiology, neurology, orthopaedics, and maternity services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

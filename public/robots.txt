@@ -1,0 +1,14 @@
+# robots.txt for Sanmarg Hospital
+# Website: https://sanmarghospital.com/
+
+User-agent: *
+Allow: /
+Allow: /logo.png
+Allow: /favicon.svg
+Allow: /uploads/
+
+# Disallow internal backend API endpoints
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://sanmarghospital.com/sitemap.xml

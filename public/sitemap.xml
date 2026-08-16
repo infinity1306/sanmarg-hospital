@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sanmarghospital.com/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sanmarghospital.com/logo.png</image:loc>
+      <image:title>SANMARG HOSPITAL Logo</image:title>
+      <image:caption>SANMARG HOSPITAL - Multi-Specialty Healthcare in Patratu, Ramgarh, Jharkhand</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sanmarghospital.com/uploads/about-team.jpg</image:loc>
+      <image:title>SANMARG HOSPITAL Medical Team</image:title>
+      <image:caption>Healthcare specialists and medical doctors at Sanmarg Hospital</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sanmarghospital.com/uploads/hero-hospital.jpg</image:loc>
+      <image:title>SANMARG HOSPITAL Building</image:title>
+      <image:caption>Sanmarg Hospital multi-specialty healthcare facility in Jharkhand</image:caption>
+    </image:image>
+  </url>
+</urlset>
