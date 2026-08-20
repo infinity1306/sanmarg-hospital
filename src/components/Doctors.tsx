@@ -10,23 +10,9 @@ export default function Doctors() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch('/api/doctors')
-      .then((res) => {
-        if (!res.ok) throw new Error('Failed to fetch doctors');
-        return res.json();
-      })
-      .then((data) => {
-        if (Array.isArray(data) && data.length > 0) {
-          setDoctors(data);
-        } else {
-          setDoctors(defaultDoctors);
-        }
-        setLoading(false);
-      })
-      .catch(() => {
-        setDoctors(defaultDoctors);
-        setLoading(false);
-      });
+    // API fetch bypassed to strictly use updated doctor data
+    setDoctors(defaultDoctors);
+    setLoading(false);
   }, []);
 
   return (
@@ -89,10 +75,6 @@ export default function Doctors() {
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-1">
                     <h3 className="text-lg font-bold text-slate-900">{doctor.name}</h3>
-                    <div className="bg-teal-50 text-teal-700 rounded-full px-2 py-1 flex items-center gap-1 text-xs font-semibold">
-                      <Award className="w-3.5 h-3.5" />
-                      {doctor.experience_years}+ yrs
-                    </div>
                   </div>
                   <p className="text-teal-600 font-medium text-sm mb-3">{doctor.specialty}</p>
                   <p className="text-slate-500 text-sm mb-4 line-clamp-2">{doctor.bio}</p>
