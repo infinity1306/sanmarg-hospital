@@ -103,7 +103,7 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src="/uploads/about-team.jpg"
-                alt="Medical Specialist Team and Healthcare Staff at Sanmarg Hospital in Patratu, Ramgarh, Jharkhand"
+                alt="Medical Specialist Team and Healthcare Staff at Sanmarg Hospital in Baridih, Ramgarh, Jharkhand"
                 loading="lazy"
                 width="600"
                 height="500"
@@ -133,22 +133,47 @@ export default function About() {
               transition={{ delay: 0.1 }}
               className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6"
             >
-              Trusted Healthcare in Patratu, Ramgarh (Jharkhand)
+              Trusted Healthcare in Baridih, Ramgarh (Jharkhand)
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="text-slate-600 text-lg leading-relaxed mb-8"
+              className="text-slate-600 text-lg leading-relaxed mb-6"
             >
               SANMARG HOSPITAL is a premier multi-specialty healthcare institution in
-              Patratu, Ramgarh, Jharkhand, delivering comprehensive medical care across
+              Baridih, Ramgarh, Jharkhand, delivering comprehensive medical care across
               cardiology, neurology, orthopaedics, obstetrics, and surgery. Our mission is to
               provide accessible, high-quality, and compassionate medical treatments.
-              <br /><br />
-              <span className="font-medium italic text-slate-700">In memory of Krishna Singh & Dinesh Kumar Munda</span>
             </motion.p>
+
+            {/* Leadership & Administration */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.25 }}
+              className="bg-slate-50 border border-slate-200/80 rounded-2xl p-5 mb-8"
+            >
+              <h4 className="text-xs font-bold uppercase tracking-wider text-teal-700 mb-3 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-teal-500 inline-block" />
+                Hospital Leadership & Administration
+              </h4>
+              <div className="grid sm:grid-cols-2 gap-3.5">
+                <div className="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm">
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Director</p>
+                  <p className="text-base font-bold text-slate-900">Sandeep Kumar</p>
+                </div>
+                <div className="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm">
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Managing Director (M.D.)</p>
+                  <p className="text-base font-bold text-slate-900">Usha Devi</p>
+                </div>
+              </div>
+              <p className="text-xs font-medium italic text-slate-500 mt-3 pt-3 border-t border-slate-200/60">
+                In revered memory of Krishna Singh & Dinesh Kumar Munda
+              </p>
+            </motion.div>
 
             <div className="grid sm:grid-cols-2 gap-5 mb-10">
               {features.map((feature, index) => (

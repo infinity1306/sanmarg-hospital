@@ -126,7 +126,7 @@ export default function Hero() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-3xl blur-2xl" />
                 <img
                   src="/logo.png"
-                  alt="SANMARG HOSPITAL Logo - Leading Multi-Specialty Hospital in Patratu, Ramgarh, Jharkhand"
+                  alt="SANMARG HOSPITAL Logo - Leading Multi-Specialty Hospital in Baridih, Ramgarh, Jharkhand"
                   className="relative rounded-3xl shadow-2xl border border-white/20 w-full max-w-md ml-auto object-cover"
                   width="448"
                   height="260"

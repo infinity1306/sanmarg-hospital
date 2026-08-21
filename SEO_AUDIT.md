@@ -2,7 +2,7 @@
 
 **Project:** SANMARG HOSPITAL Website  
 **Production Canonical Domain:** `https://sanmarghospital.com/`  
-**Location:** Patratu, Ramgarh, Jharkhand, India  
+**Location:** Baridih, Ramgarh, Jharkhand, India  
 **Date of Audit & Implementation:** 2026-08-16  
 **Auditor:** Senior Technical SEO & Frontend Engineer  
 
@@ -43,9 +43,9 @@
 ---
 
 ## 4. Metadata Improvements
-* **Title:** `SANMARG HOSPITAL | Multi-Specialty Hospital in Patratu, Ramgarh, Jharkhand`
-* **Meta Description:** `SANMARG HOSPITAL is a leading multi-specialty healthcare center in Patratu, Ramgarh, Jharkhand. Offering 24/7 emergency care, cardiology, neurology, orthopaedics, maternity, and advanced surgical facilities.`
-* **Keywords:** `Sanmarg Hospital, hospital in Patratu, hospital in Ramgarh, multi specialty hospital Jharkhand, emergency hospital Jharkhand, doctor appointment Patratu, cardiology Ramgarh, neurology Jharkhand`
+* **Title:** `SANMARG HOSPITAL | Multi-Specialty Hospital in Baridih, Ramgarh, Jharkhand`
+* **Meta Description:** `SANMARG HOSPITAL is a leading multi-specialty healthcare center in Baridih, Ramgarh, Jharkhand. Offering 24/7 emergency care, cardiology, neurology, orthopaedics, maternity, and advanced surgical facilities.`
+* **Keywords:** `Sanmarg Hospital, hospital in Baridih, hospital in Ramgarh, multi specialty hospital Jharkhand, emergency hospital Jharkhand, doctor appointment Baridih, cardiology Ramgarh, neurology Jharkhand`
 * **Canonical URL:** `https://sanmarghospital.com/`
 * **Robots Directives:** `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`
 * **Open Graph:** Fully configured with `og:title`, `og:description`, `og:image` (`/logo.png`), `og:url`, `og:type` (`website`), `og:locale` (`en_IN`), `og:site_name`.
@@ -64,12 +64,14 @@
 ## 6. Local SEO Improvements (NAP & Geographic Signals)
 * **Consistent NAP Maintained:**
   * **Name:** SANMARG HOSPITAL
-  * **Address:** Patratu, Ramgarh, Jharkhand, India
+  * **Address:** Baridih, Ramgarh, Jharkhand, India
+  * **Director:** Sandeep Kumar
+  * **Managing Director (M.D.):** Usha Devi
   * **Phone:** +91 7004367388
   * **Email:** sanmarghospital@gmail.com
 * **Local Geo Meta Tags:**
   * `geo.region`: `IN-JH`
-  * `geo.placename`: `Patratu, Ramgarh, Jharkhand`
+  * `geo.placename`: `Baridih, Ramgarh, Jharkhand`
   * `geo.position`: `23.572691;85.443488`
   * `ICBM`: `23.572691, 85.443488`
 * **Google Maps Embed & Action Link:** Verified latitude/longitude coordinates (`23.572691, 85.443488`) with direct directions URL [https://maps.app.goo.gl/yYE53KJhzMWea3cFA](https://maps.app.goo.gl/yYE53KJhzMWea3cFA).
@@ -154,7 +156,7 @@
 
 ## 15. Missing Verified Information — User Input Required
 The following details were not present in the codebase and were intentionally NOT hallucinated:
-1. **Exact PIN Code / Street Address:** The project specifies *"Patratu, Ramgarh, Jharkhand"*. Exact postal street/PIN code can be added to structured data once verified.
+1. **Exact PIN Code / Street Address:** The project specifies *"Baridih, Ramgarh, Jharkhand"*. Exact postal street/PIN code can be added to structured data once verified.
 2. **Official Medical Council / NABH Registration ID:** Present in UI badges as certified care; formal registration numbers can be appended to JSON-LD if desired.
 3. **Official Social Media URLs:** Social icon links point to placeholder hashes (`#`) and can be updated with verified Facebook, YouTube, or LinkedIn profiles.
 

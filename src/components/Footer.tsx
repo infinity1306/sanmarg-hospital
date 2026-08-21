@@ -33,15 +33,18 @@ export default function Footer() {
             <div className="flex items-center mb-6">
               <img
                 src="/logo.png"
-                alt="SANMARG HOSPITAL - Multi-Specialty Hospital in Patratu, Ramgarh, Jharkhand"
+                alt="SANMARG HOSPITAL - Multi-Specialty Hospital in Baridih, Ramgarh, Jharkhand"
                 loading="lazy"
                 width="180"
                 height="80"
                 className="h-20 w-auto object-contain drop-shadow-md rounded-xl"
               />
             </div>
-            <p className="text-sm leading-relaxed mb-3">
-              Committed to delivering compassionate, affordable, and high-quality multi-specialty healthcare in Patratu, Ramgarh, Jharkhand.
+            <p className="text-sm leading-relaxed mb-2">
+              Committed to delivering compassionate, affordable, and high-quality multi-specialty healthcare in Baridih, Ramgarh, Jharkhand.
+            </p>
+            <p className="text-xs text-teal-400 font-medium mb-1">
+              Director: Sandeep Kumar | M.D.: Usha Devi
             </p>
             <p className="text-xs text-slate-400 mb-6">
               Emergency: 24/7 Helpline (+91 7004367388)

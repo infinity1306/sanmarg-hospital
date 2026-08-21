@@ -55,7 +55,7 @@ export default function Contact() {
     }`;
 
   const contactInfo = [
-    { icon: MapPin, title: 'Visit Us', lines: ['SANMARG HOSPITAL', 'Patratu, Ramgarh, Jharkhand, India'] },
+    { icon: MapPin, title: 'Visit Us', lines: ['SANMARG HOSPITAL', 'Baridih, Ramgarh, Jharkhand, India'] },
     { icon: Phone, title: 'Call Us', lines: ['+91 7004367388'] },
     { icon: Mail, title: 'Email Us', lines: ['sanmarghospital@gmail.com'] },
     { icon: Clock, title: 'Working Hours', lines: ['Emergency: 24/7', 'OPD: 9:00 AM - 11:00 AM & 4:00 PM - 6:00 PM'] },
@@ -99,7 +99,7 @@ export default function Contact() {
             </div>
             <h3 className="font-bold text-slate-900 mb-2">Visit Us</h3>
             <p className="text-slate-600 text-sm">SANMARG HOSPITAL</p>
-            <p className="text-slate-600 text-sm">Patratu, Ramgarh, Jharkhand, India</p>
+            <p className="text-slate-600 text-sm">Baridih, Ramgarh, Jharkhand, India</p>
             <a
               href="https://maps.app.goo.gl/yYE53KJhzMWea3cFA"
               target="_blank"
@@ -177,7 +177,7 @@ export default function Contact() {
             className="lg:col-span-3 rounded-3xl overflow-hidden shadow-xl h-[400px] lg:h-auto relative"
           >
             <iframe
-              title="SANMARG HOSPITAL Location in Patratu, Ramgarh, Jharkhand"
+              title="SANMARG HOSPITAL Location in Baridih, Ramgarh, Jharkhand"
               src="https://maps.google.com/maps?q=23.572691,85.443488&hl=en&z=15&output=embed"
               className="w-full h-full border-0 min-h-[350px]"
               allowFullScreen
