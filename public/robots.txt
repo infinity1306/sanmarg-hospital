@@ -3,9 +3,17 @@
 
 User-agent: *
 Allow: /
+Allow: /favicon.ico
+Allow: /favicon*.png
+Allow: /apple-touch-icon.png
 Allow: /logo.png
 Allow: /favicon.svg
+Allow: /manifest.json
 Allow: /uploads/
+
+# Google favicon crawler
+User-agent: Googlebot-Favicons
+Allow: /
 
 # Disallow internal backend API endpoints
 Disallow: /api/
