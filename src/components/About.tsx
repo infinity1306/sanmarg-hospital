@@ -100,18 +100,26 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
               <img
-                src="/uploads/about-team.jpg"
-                alt="Medical Specialist Team and Healthcare Staff at Sanmarg Hospital in Baridih, Ramgarh, Jharkhand"
+                src="/uploads/director.jpg"
+                alt="Director Sandeep Kumar - SANMARG HOSPITAL in Baridih, Ramgarh, Jharkhand"
                 loading="lazy"
                 width="600"
-                height="500"
-                className="w-full h-[500px] object-cover"
+                height="540"
+                className="w-full h-[520px] object-cover object-top"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/25 to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6 text-white">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/90 backdrop-blur-sm text-white text-xs font-semibold uppercase tracking-wider mb-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                  Hospital Leadership
+                </div>
+                <h3 className="text-2xl font-bold text-white">Sandeep Kumar</h3>
+                <p className="text-teal-200 text-sm font-medium">Director, SANMARG HOSPITAL</p>
+              </div>
             </div>
-            <div className="absolute -bottom-8 -right-8 bg-gradient-to-br from-teal-500 to-blue-600 text-white rounded-2xl p-6 shadow-xl hidden sm:block">
+            <div className="absolute -bottom-6 -right-6 bg-gradient-to-br from-teal-500 to-blue-600 text-white rounded-2xl p-6 shadow-xl hidden sm:block">
               <p className="text-4xl font-bold">24/7</p>
               <p className="text-sm opacity-90">Emergency Care</p>
             </div>
@@ -154,20 +162,31 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.25 }}
-              className="bg-slate-50 border border-slate-200/80 rounded-2xl p-5 mb-8"
+              className="bg-gradient-to-br from-slate-50 to-teal-50/40 border border-teal-100/80 rounded-2xl p-5 mb-8 shadow-sm"
             >
-              <h4 className="text-xs font-bold uppercase tracking-wider text-teal-700 mb-3 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-teal-500 inline-block" />
+              <h4 className="text-xs font-bold uppercase tracking-wider text-teal-800 mb-3 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-teal-500 inline-block animate-pulse" />
                 Hospital Leadership & Administration
               </h4>
               <div className="grid sm:grid-cols-2 gap-3.5">
-                <div className="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm">
-                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Director</p>
-                  <p className="text-base font-bold text-slate-900">Sandeep Kumar</p>
+                <div className="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm flex items-center gap-3.5 hover:border-teal-300 transition-colors">
+                  <img
+                    src="/uploads/director.jpg"
+                    alt="Sandeep Kumar - Director, SANMARG HOSPITAL"
+                    className="w-13 h-13 w-[52px] h-[52px] rounded-xl object-cover object-top border-2 border-teal-500/30 shadow-sm shrink-0"
+                    width="52"
+                    height="52"
+                  />
+                  <div>
+                    <p className="text-xs text-teal-600 font-semibold uppercase tracking-wide">Director</p>
+                    <p className="text-base font-bold text-slate-900 leading-tight">Sandeep Kumar</p>
+                    <p className="text-[11px] text-slate-500">SANMARG HOSPITAL</p>
+                  </div>
                 </div>
-                <div className="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm">
+                <div className="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm flex flex-col justify-center">
                   <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Managing Director (M.D.)</p>
-                  <p className="text-base font-bold text-slate-900">Usha Devi</p>
+                  <p className="text-base font-bold text-slate-900 leading-tight">Usha Devi</p>
+                  <p className="text-[11px] text-slate-500">SANMARG HOSPITAL</p>
                 </div>
               </div>
               <p className="text-xs font-medium italic text-slate-500 mt-3 pt-3 border-t border-slate-200/60">
